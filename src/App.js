@@ -10,8 +10,7 @@ const App = () => {
 				<a href={samplePDF1} target="_blank"
 					rel="noreferrer">
 					Open First PDF
-				</a> <br></br>
-				
+				</a> <br></br>		
 			</center>
 		</>
 	);
