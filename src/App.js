@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import React from "react";
+import samplePDF1 from "../src/resume.pdf";
+const App = () => {
+	return (
+		<>
+			<center>
+				<h1>Welcome to Geeks for Geeks</h1>
+				<h3>Click on below link to open
+					PDF file in new tab</h3>
+				<a href={samplePDF1} target="_blank"
+					rel="noreferrer">
+					Open First PDF
+				</a> <br></br>
+				
+			</center>
+		</>
+	);
+};
 
 export default App;
